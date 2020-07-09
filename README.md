@@ -3,28 +3,35 @@ Bonjour à tous
 http://gestionecolev1.herokuapp.com/gestion/
 
 
-INSERT INTO `role` (`name`) VALUES ('USER');
-INSERT INTO `role` (`name`) VALUES ('CREATOR');
-INSERT INTO `role` (`name`) VALUES ('EDITOR');
-INSERT INTO `role` (`name`) VALUES ('ADMIN');
+# gestionscolairespringboot
+Bonjour à tous
 
-INSERT INTO `cours` (`id_cours`, `libelle`, `nb_heure`) VALUES (1, 'Cours de JAVA', 1);
-INSERT INTO `cours` (`id_cours`, `libelle`, `nb_heure`) VALUES (2, 'Cours de SPRING', 2);
-INSERT INTO `cours` (`id_cours`, `libelle`, `nb_heure`) VALUES (3, 'Cours de ANGULAR', 1);
+gestionscolairespringboot
+L'application a été développée avec Spring Boot. Celle-ci permet de gérer les étudiants d'une école. Plusieurs fonctionnalités sont disponibles :
 
+connexion à la plateforme
+lister les étudiants
+lister les cours
+ajouter un étudiant
+supprimer un étudiant
+modifier un étudiant
+lire les informations d'un étudiant
+associer un étudiant à un cours
+Prérequis :
 
-INSERT INTO `personne` (`id`, `adresse`, `mail`, `nom`, `prenom`, `telephone`) VALUES (1, "241 rue DUGUESCLIN,
-69003 Lyon","contact@objis.com", "objis", "objis", 012030405);
-INSERT INTO `etudiant` (`date_naissance`, `id`) VALUES ("01/01/01", 1);
+A partir d'un navigateur, accéder à : http://gestionecolev1.herokuapp.com/gestion/ . Voici l'écran de connexion où vous pouvez vous connecter avec le compte admin
 
-INSERT INTO `user` (`username`, `password`, `enabled`) VALUES ('patrick', '$2a$10$cTUErxQqYVyU2qmQGIktpup5chLEdhD2zpzNEyYqmxrHHJbSNDOG.', 1);
-(patrick,patrick)
+identifiant : admin
+mot de passe : admin
 
-INSERT INTO `users_roles` (`user_id`, `role_id`) VALUES (1, 1);
+Technologies utilisées :
 
-INSERT INTO `user` (`username`, `password`, `enabled`) VALUES ('alex', '$2a$10$.tP2OH3dEG0zms7vek4ated5AiQ.EGkncii0OpCcGq4bckS9NOULu', 1);
-
-INSERT INTO `users_roles` (`user_id`, `role_id`) VALUES (2, 2);
-
-
-http://localhost:8080/gestion
+Spring Boot
+Tomcat
+JpaRepository
+Mysql
+PostGres
+Heroku
+Jenkins
+Swagger
+SpringSecurity
