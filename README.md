@@ -1,10 +1,7 @@
-# gestionscolairespringboot
+# gestionEnsupV1Heroku
 Bonjour à tous
 http://gestionecolev1.herokuapp.com/gestion/
 
-
-# gestionscolairespringboot
-Bonjour à tous
 
 gestionscolairespringboot
 L'application a été développée avec Spring Boot. Celle-ci permet de gérer les étudiants d'une école. Plusieurs fonctionnalités sont disponibles :
