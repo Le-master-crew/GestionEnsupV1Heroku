@@ -23,11 +23,16 @@ L'application a été développée avec Spring Boot. Celle-ci permet de gérer l
   - associer un étudiant à un cours
 
 
-A partir d'un navigateur, accéder à : http://gestionecolev1.herokuapp.com/gestion/ . Voici l'écran de connexion où vous pouvez vous connecter avec le compte admin
+A partir d'un navigateur, accéder à : http://gestionecolev1.herokuapp.com/gestion/ . Voici l'écran de connexion où vous pouvez vous connecter avec le compte admin:
 
  - identifiant : admin
 
  - mot de passe : admin
+ 
+ Vous pouvez également vous connecter avec le compte professeur (qui ne peut ni afficher la liste des étudiants) :
+ 
+  - identifiant : prof
+  - mot de passe : prof
 
 Technologies utilisées :
 
