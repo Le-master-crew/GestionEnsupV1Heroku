@@ -11,19 +11,19 @@ L'application a été développée avec Spring Boot. Celle-ci permet de gérer l
 
  -connexion à la plateforme
  
- -lister les étudiants
+  - lister les étudiants
  
- -lister les cours
+  - lister les cours
  
- -ajouter un étudiant
+  - ajouter un étudiant
  
- -supprimer un étudiant
+  - supprimer un étudiant
  
- -modifier un étudiant
+  - modifier un étudiant
  
- -lire les informations d'un étudiant
+  - lire les informations d'un étudiant
  
- -associer un étudiant à un cours
+  - associer un étudiant à un cours
 
 
 A partir d'un navigateur, accéder à : http://gestionecolev1.herokuapp.com/gestion/ . Voici l'écran de connexion où vous pouvez vous connecter avec le compte admin
